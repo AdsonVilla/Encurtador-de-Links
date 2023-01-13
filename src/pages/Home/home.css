@@ -1,0 +1,145 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 155px;
+}
+
+.logo h1 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.logo span {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 535px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input div {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.input div svg {
+  margin: 0 8px;
+}
+
+.input div input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.input div input::placeholder {
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.input button {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+  color: black;
+  margin-top: 10px;
+  transition: transform 0.4s;
+}
+
+.input button:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 553px) {
+  .logo img {
+    width: 130px;
+  }
+
+  .logo h1 {
+    font-size: 48px;
+  }
+
+  .logo span {
+    font-size: 13px;
+  }
+
+  .input {
+    width: 85%;
+  }
+}
+
+@media (max-width: 477px) {
+  .logo img {
+    width: 120px;
+  }
+
+  .logo h1 {
+    font-size: 38px;
+  }
+
+  .logo span {
+    font-size: 13px;
+  }
+
+  .input {
+    width: 85%;
+  }
+}
+
+@media (max-width: 367px) {
+  .logo img {
+    width: 115px;
+  }
+
+  .logo h1 {
+    font-size: 34px;
+  }
+
+  .logo span {
+    font-size: 11px;
+  }
+
+  .input div input {
+    width: 85%;
+    font-size: 14px;
+  }
+
+  .input {
+    width: 85%;
+  }
+
+  .input button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
