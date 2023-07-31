@@ -1,6 +1,6 @@
 # Short Link: Encurtador de Links
 Projeto de um encurtador de links construído com Vite e React. O usuário digita no input o link que deseja encurtar. Ao apertar no botão "Gerar Link", um modal é criado na tela com o link digitado e sua versão encurtada. Para isso, foi utilizada a API Bitly (bitly.com).
-Também foram criadas as telas de links, as quais serão adicionadas funcionalidades para ser criada uma lista de todos os links encurtados, e uma tela de ERROR404, pro caso de erros de rota do link da aplicação.
+Também foram criadas as telas de links, com uma lista de todos os links encurtados, e uma tela de ERROR404, pro caso de erros de rota do link da aplicação.
 
 ## Tecnologias utilizadas
 - Vite
